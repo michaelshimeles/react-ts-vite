@@ -8,6 +8,7 @@ import App from './App.tsx';
 import Settings from './settings.tsx';
 import ErrorPage from './error-page.tsx';
 import './index.css';
+import { SidebarProvider } from './context/SidebarContext.tsx';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,8 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <SidebarProvider>
+      <RouterProvider router={router} />
+    </SidebarProvider>
   </React.StrictMode>,
 )

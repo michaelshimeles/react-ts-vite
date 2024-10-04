@@ -5,7 +5,6 @@ import { Home } from './components/main/home'
 const App: React.FC = () => {
   return (
     <DashboardWrapper>
-        {/* Main Content */}
         <Home />
     </DashboardWrapper>
   )

@@ -7,7 +7,7 @@ export const Header = () => {
           <input
             type="text"
             placeholder="Search..."
-            className="bg-gray-100 text-gray-800 border border-gray-600 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500"
+            className="bg-gray-100 text-gray-800 border border-gray-300 text-sm rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500"
           />
           {/* <MagnifyingGlassIcon className="h-5 w-5 text-gray-800" /> */}
           <img
